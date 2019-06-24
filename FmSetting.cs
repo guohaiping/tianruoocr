@@ -139,13 +139,13 @@ namespace TrOCR
 			text_baiduaccount.Text = value12;
 			if (value12 == "发生错误")
 			{
-				text_baiduaccount.Text = "YsZKG1wha34PlDOPYaIrIIKO";
+				text_baiduaccount.Text = "RbKjwaSYlRA8At9mMkjCejgS";
 			}
 			var value13 = IniHelper.GetValue("密钥_百度", "secret_key");
 			text_baidupassword.Text = value13;
 			if (value13 == "发生错误")
 			{
-				text_baidupassword.Text = "HPRZtdOHrdnnETVsZM2Nx7vbDkMfxrkD";
+				text_baidupassword.Text = "WQmdxGUnhZgL8rxEUlbwBZ3QV62sD3fI";
 			}
 			var value14 = IniHelper.GetValue("代理", "代理类型");
 			combox_代理.Text = value14;
@@ -455,8 +455,8 @@ namespace TrOCR
 
 		private void 密钥Button_Click(object sender, EventArgs e)
 		{
-			text_baiduaccount.Text = "YsZKG1wha34PlDOPYaIrIIKO";
-			text_baidupassword.Text = "HPRZtdOHrdnnETVsZM2Nx7vbDkMfxrkD";
+			text_baiduaccount.Text = "RbKjwaSYlRA8At9mMkjCejgS";
+			text_baidupassword.Text = "WQmdxGUnhZgL8rxEUlbwBZ3QV62sD3fI";
 		}
 
 		private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)

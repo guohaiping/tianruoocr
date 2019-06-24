@@ -176,6 +176,9 @@
       <LastGenOutput>AdvRichTextBox.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="FmFlags.resx">
+      <DependentUpon>FmFlags.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FmHelp.resx">
       <DependentUpon>FmHelp.cs</DependentUpon>
     </EmbeddedResource>

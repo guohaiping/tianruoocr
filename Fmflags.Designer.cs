@@ -24,19 +24,21 @@
 
 		private void InitializeComponent()
 		{
-			base.SuspendLayout();
-			base.AutoScaleDimensions = new global::System.Drawing.SizeF(6f, 12f);
-			base.AutoScaleMode = global::System.Windows.Forms.AutoScaleMode.None;
-			this.ForeColor = global::System.Drawing.Color.Aqua;
-			base.FormBorderStyle = global::System.Windows.Forms.FormBorderStyle.None;
-			base.ClientSize = new global::System.Drawing.Size(50, 50);
-			base.Name = "Form1";
-			this.Text = "Form1";
-			base.TopMost = true;
-			base.ShowInTaskbar = false;
-			base.FormBorderStyle = global::System.Windows.Forms.FormBorderStyle.FixedSingle;
-			base.StartPosition = global::System.Windows.Forms.FormStartPosition.Manual;
-			base.ResumeLayout(false);
+            this.SuspendLayout();
+            // 
+            // FmFlags
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(342, 198);
+            this.ForeColor = System.Drawing.Color.Aqua;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "FmFlags";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Form1";
+            this.TopMost = true;
+            this.ResumeLayout(false);
+
 		}
 
 		private global::System.ComponentModel.IContainer components;

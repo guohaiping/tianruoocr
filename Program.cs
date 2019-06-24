@@ -51,6 +51,7 @@ namespace TrOCR
 
         public static void CheckUpdate()
         {
+            /*
             var html = CommonHelper.GetHtmlContent("https://www.jianshu.com/p/3afe79471cb9");
             if (string.IsNullOrEmpty(html))
             {
@@ -83,6 +84,7 @@ namespace TrOCR
                     Environment.Exit(0);
                 }
             }
+            */
         }
 
         private static bool CheckVersion(string newVersion, string curVersion)

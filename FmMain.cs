@@ -1168,10 +1168,12 @@ namespace TrOCR
 
 		public void SearchSelText(object sender, EventArgs e)
 		{
-			Process.Start("https://www.baidu.com/s?wd=" + RichBoxBody.SelectText);
-		}
+			Process.Start("https://www.google.com/search?q=" + RichBoxBody.SelectText);
+            //https://www.google.com/search?q=
+            //https://www.baidu.com/s?wd=
+        }
 
-		public void tray_update_Click(object sender, EventArgs e)
+        public void tray_update_Click(object sender, EventArgs e)
 		{
 			Program.CheckUpdate();
 		}
@@ -1843,8 +1845,10 @@ namespace TrOCR
 				Visible = false;
 				WindowState = FormWindowState.Minimized;
                 Show();
-				Process.Start("https://www.baidu.com/s?wd=" + RichBoxBody.Text);
-				baidu_flags = "";
+				Process.Start("https://www.google.com/search?q=" + RichBoxBody.Text);
+                //https://www.google.com/search?q=
+                //https://www.baidu.com/s?wd=
+                baidu_flags = "";
 				if (IniHelper.GetValue("快捷键", "翻译文本") != "请按下快捷键")
 				{
 					var value = IniHelper.GetValue("快捷键", "翻译文本");
